@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072581521C7A53A90017F85A /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 072581511C7A53A90017F85A /* View.xib */; };
 		E1DE2F301B6FA6F100623EBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DE2F2F1B6FA6F100623EBB /* main.m */; };
 		E1DE2F331B6FA6F100623EBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DE2F321B6FA6F100623EBB /* AppDelegate.m */; };
 		E1DE2F361B6FA6F100623EBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DE2F351B6FA6F100623EBB /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072581511C7A53A90017F85A /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		E1DE2F2A1B6FA6F100623EBB /* Example1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DE2F2E1B6FA6F100623EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1DE2F2F1B6FA6F100623EBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				E1DE2F3A1B6FA6F100623EBB /* Images.xcassets */,
 				E1DE2F3C1B6FA6F100623EBB /* LaunchScreen.xib */,
 				E1DE2F2D1B6FA6F100623EBB /* Supporting Files */,
+				072581511C7A53A90017F85A /* View.xib */,
 			);
 			path = Example1;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072581521C7A53A90017F85A /* View.xib in Resources */,
 				E1DE2F391B6FA6F100623EBB /* Main.storyboard in Resources */,
 				E1DE2F3E1B6FA6F100623EBB /* LaunchScreen.xib in Resources */,
 				E1DE2F3B1B6FA6F100623EBB /* Images.xcassets in Resources */,
@@ -418,6 +422,7 @@
 				E1DE2F4F1B6FA6F100623EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1DE2F501B6FA6F100623EBB /* Build configuration list for PBXNativeTarget "Example1Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				E1DE2F521B6FA6F100623EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
